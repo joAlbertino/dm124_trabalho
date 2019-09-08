@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "2b0cbb2a-3974-4336-ac1b-b7d066c7a120",
+		"name": "TRABALHO  DM_124",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET ALL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "ZppopkxMjQ6YWx1bm9pb8983jkm",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://dm124.herokuapp.com/api/v1/logis",
+					"protocol": "https",
+					"host": [
+						"dm124",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"logis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "ZppopkxMjQ6YWx1bm9pb8983jkm",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": \"\",\n\t\"idCliente\":1,\n\t\"recebedor\":\"\",\n\t\"cpfRecebedor\":\"39557577819\",\n\t\"isRecebedorComprador\":\"S\",\n\t\"data\":\"05092019\",\n\t\"localizacao\":\"\"\n\t\n}\n"
+				},
+				"url": {
+					"raw": "https://dm124.herokuapp.com/api/v1/logis",
+					"protocol": "https",
+					"host": [
+						"dm124",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"logis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://dm124.herokuapp.com/api/v1/logis/9",
+					"protocol": "https",
+					"host": [
+						"dm124",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"logis",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://dm124.herokuapp.com/api/v1/logis/2",
+					"protocol": "https",
+					"host": [
+						"dm124",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"logis",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET BY ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://dm124.herokuapp.com/api/v1/logis/1",
+					"protocol": "https",
+					"host": [
+						"dm124",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"logis",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
